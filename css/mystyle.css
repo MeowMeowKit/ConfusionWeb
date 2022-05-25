@@ -37,3 +37,6 @@ body {
    border-bottom: 1px solid #ddd;
    padding: 10px;
 }
+.collapsed {
+   cursor: pointer;
+}
