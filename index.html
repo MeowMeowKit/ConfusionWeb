@@ -86,6 +86,16 @@
                <div class="col-12 col-sm align-self-center">
                   <img src="img/logo.png" class="img-fluid" alt="" />
                </div>
+               <div class="reserve">
+                  <button
+                     type="button"
+                     class="btn btn-warning"
+                     data-toggle="collapse"
+                     data-target="#myModal"
+                  >
+                     Resever a table
+                  </button>
+               </div>
             </div>
          </div>
       </header>
@@ -95,38 +105,55 @@
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
-            <div class="media">
-               <img
-                  class="d-flex mr-3 img-thumbnail align-self-center"
-                  src="img/uthappizza.png"
-                  alt="Uthappizza"
-               />
-               <div class="media-body">
-                  <h2 class="mt-0">
-                     Uthappizza <span class="badge badge-danger">HOT</span
-                     ><span class="badge badge-pill badge-sencondary">HOT</span>
-                  </h2>
-                  <p class="d-none d-sm-block">
-                     Aunique combination of Indian Uthappam(pancake) and Italian
-                     pizza,topped with Cerignola olives,ripe vine cherry
-                     tomatoes,Vidalia onion,Guntur chillies and Buffalo Paneer.
-                  </p>
+            <div class="col-12 col-sm-8 order-sm-first col-md">
+               <div class="media">
+                  <img
+                     class="d-flex mr-3 img-thumbnail align-self-center"
+                     src="img/uthappizza.png"
+                     alt="Uthappizza"
+                  />
+                  <div class="media-body">
+                     <h2 class="mt-0">
+                        Uthappizza <span class="badge badge-danger">HOT</span
+                        ><span class="badge badge-pill badge-secondary"
+                           >$4.99</span
+                        >
+                     </h2>
+                     <p class="d-none d-sm-block">
+                        Aunique combination of Indian Uthappam(pancake) and
+                        Italian pizza,topped with Cerignola olives,ripe vine
+                        cherry tomatoes,Vidalia onion,Guntur chillies and
+                        Buffalo Paneer.
+                     </p>
+                  </div>
                </div>
             </div>
          </div>
 
          <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+            <div class="col-12 col-sm-4 order-sm-first col-md-3">
                <h3>This Month's Promotions</h3>
             </div>
-            <div class="col col-sm order-sm-first col-md">
-               <h2>Weekend Grand Buffet</h2>
-               <p>
-                  Featuring mouthwatering combinations with a choice of five
-                  different salads, six enticing appetizers, six main entrees
-                  and five choicest desserts. Free flowing bubbly and soft
-                  drinks. All for just $19.99 per person
-               </p>
+            <div class="col col-sm-8 order-sm-last col-md">
+               <div class="media">
+                  <div class="media-body">
+                     <h2 class="mt-0">
+                        Weekend Grand Buffet
+                        <span class="badge badge-danger">NEW</span>
+                     </h2>
+                     <p class="d-none d-sm-block">
+                        Featuring mouthwatering combinations with a choice of
+                        five different salads, six enticing appetizers, six main
+                        entrees and five choicest desserts. Free flowing bubbly
+                        and soft drinks. All for just $19.99 per person
+                     </p>
+                  </div>
+                  <img
+                     class="d-flex mr-3 img-thumbnail align-self-center"
+                     src="img/buffet.png"
+                     alt="Weekend Grand Buffet"
+                  />
+               </div>
             </div>
          </div>
 
@@ -143,7 +170,7 @@
                <div class="media-body">
                   <h2 class="mt-0">Alberto Somayya</h2>
                   <h4>Executive Chef</h4>
-                  <p class="d-noned-sm-block">
+                  <p class="d-none d-sm-block">
                      Award winning three-star Michelin chef with wide
                      International experience having worked closely with
                      whos-who in the culinary world, he specializes in creating
@@ -152,7 +179,109 @@
                </div>
             </div>
          </div>
+
+         <div class="bg-light collapse" id="myModal">
+            <div class="col-12 col-sm-8">
+               <form>
+                  <div class="card-header bg-warning">
+                     <h3>Resever a table</h3>
+                  </div>
+                  <div class="card-body">
+                     <div class="form-group row">
+                        <label for="" class="form-check-label col-sm-3"
+                           >Num of Guests</label
+                        >
+                        <div class="form-check form-check-inline">
+                           <input
+                              type="radio"
+                              class="form-check-input"
+                              name="inlineRadioOptions"
+                              id="inlineRadio1"
+                              value="option1"
+                           />
+                           <label for="inlineRadio1" class="form-check-label"
+                              >1</label
+                           >
+                        </div>
+                        <div class="form-check form-check-inline">
+                           <input
+                              type="radio"
+                              class="form-check-input"
+                              name="inlineRadioOptions"
+                              id="inlineRadio2"
+                              value="option2"
+                           />
+                           <label for="inlineRadio1" class="form-check-label"
+                              >2</label
+                           >
+                        </div>
+                        <div class="form-check form-check-inline">
+                           <input
+                              type="radio"
+                              class="form-check-input"
+                              name="inlineRadioOptions"
+                              id="inlineRadio3"
+                              value="option3"
+                           />
+                           <label for="inlineRadio1" class="form-check-label"
+                              >3</label
+                           >
+                        </div>
+                        <div class="form-check form-check-inline">
+                           <input
+                              type="radio"
+                              class="form-check-input"
+                              name="inlineRadioOptions"
+                              id="inlineRadio4"
+                              value="option4"
+                           />
+                           <label for="inlineRadio1" class="form-check-label"
+                              >4</label
+                           >
+                        </div>
+                        <div class="form-check form-check-inline">
+                           <input
+                              type="radio"
+                              class="form-check-input"
+                              name="inlineRadioOptions"
+                              id="inlineRadio5"
+                              value="option5"
+                           />
+                           <label for="inlineRadio1" class="form-check-label"
+                              >5</label
+                           >
+                        </div>
+                        <div class="form-check form-check-inline">
+                           <input
+                              type="radio"
+                              class="form-check-input"
+                              name="inlineRadioOptions"
+                              id="inlineRadio6"
+                              value="option6"
+                           />
+                           <label for="inlineRadio1" class="form-check-label"
+                              >6</label
+                           >
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <label for="" class="form-check-label col-sm-3"
+                           >Date and Time</label
+                        >
+                        <div>
+                           <input type="text" name="" placeholder="Date" />
+                           <input type="text" name="" placeholder="Time" />
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <a href="" class="btn btn-primary btn-lg">Rerseve</a>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
       </div>
+      <!-- </div> -->
       <footer class="footer">
          <div class="container">
             <div class="row">

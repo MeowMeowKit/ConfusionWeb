@@ -40,3 +40,8 @@ body {
 .collapsed {
    cursor: pointer;
 }
+.reserve {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
