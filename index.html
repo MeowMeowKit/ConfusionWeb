@@ -28,7 +28,7 @@
       <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
       <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
       <script>
-         $document.ready(function () {
+         $(document).ready(function () {
             $('[data-toggle="tooltip"]').tooltip();
          });
       </script>
@@ -80,7 +80,7 @@
             class="navbar-text"
             data-toggle="modal"
             data-target="#loginModal"
-            >Sign Up</a
+            ><span class="fa fa-arrow-right"></span>Login</a
          >
          <div id="loginModal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg" role="content">
@@ -186,8 +186,84 @@
             </div>
          </div>
       </header>
-
+      <div class="row row-content">
+         <!-- slide -->
+         <div class="col">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+               <!-- Indicator control -->
+               <ol class="carousel-indicators">
+                  <li
+                     data-target="myCarousel"
+                     data-slide-to="0"
+                     class="active"
+                  ></li>
+                  <li data-target="myCarousel" data-slide-to="1"></li>
+                  <li data-target="myCarousel" data-slide-to="2"></li>
+               </ol>
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <img
+                        class="d-block"
+                        src="img/img1.jpg"
+                        alt="First slide"
+                     />
+                     <div class="carousel-caption d-none d-nd-block">
+                        <h5>ABC</h5>
+                        <p>...</p>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <img
+                        class="d-block"
+                        src="img/img2.jpg"
+                        alt="Second slide"
+                     />
+                     <div class="carousel-caption d-none d-md-block">
+                        <h5>...</h5>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <img
+                        class="d-block"
+                        src="img/img3.jpg"
+                        alt="Third slide"
+                     />
+                     <div class="carousel-caption d-none d-md-block">
+                        <h5>......</h5>
+                        <p>....../</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- add prev,next control -->
+               <a
+                  class="carousel-control-prev"
+                  href="#nyCarousel"
+                  role="button"
+                  data-slide="prev"
+               >
+                  <span
+                     class="carousel-control-prev-icon"
+                     aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+               </a>
+               <a
+                  class="carousel-control-next"
+                  href="#myCarousel"
+                  role="button"
+                  data-slide="next"
+               >
+                  <span
+                     class="carousel-control-next-icon"
+                     aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+               </a>
+            </div>
+         </div>
+      </div>
       <div class="container">
+         <!-- end col -->
          <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                <h3>Our Lipsmacking Culinary Creations</h3>

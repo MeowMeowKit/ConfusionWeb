@@ -45,3 +45,13 @@ body {
    justify-content: center;
    align-items: center;
 }
+.carousel {
+   background: #512da8;
+}
+.carousel-item {
+   height: 900px;
+}
+.carousel-item img {
+   min-height: 100%;
+   margin: auto;
+}
