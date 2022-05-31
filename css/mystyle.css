@@ -52,6 +52,15 @@ body {
    height: 900px;
 }
 .carousel-item img {
+   width: 80%;
    min-height: 100%;
    margin: auto;
+}
+.smoke input {
+   display: none;
+}
+
+#carouselButton {
+   margin: 0 auto;
+   z-index: -1;
 }
