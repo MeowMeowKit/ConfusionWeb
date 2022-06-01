@@ -34,6 +34,12 @@ body {
    z-index: 0;
 }
 
+.reserve {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 .navbar-dark {
    background-color: #512da8;
 }
